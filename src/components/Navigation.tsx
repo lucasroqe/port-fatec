@@ -20,7 +20,6 @@ export const Navigation = () => {
           <div className="text-xl font-medium text-gray-900">
             Lucas
           </div>
-
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
@@ -33,7 +32,6 @@ export const Navigation = () => {
               </a>
             ))}
           </div>
-
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
@@ -44,7 +42,6 @@ export const Navigation = () => {
             </button>
           </div>
         </div>
-
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden pb-4">

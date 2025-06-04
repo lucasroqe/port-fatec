@@ -12,40 +12,39 @@ export const Hero = () => {
               Olá, me chamo Lucas!
             </h1>
           </div>
-          
+
           <div className="prose prose-gray max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               Estudante em Desenvolvimento de Software.
             </p>
           </div>
-          
           <div className="flex gap-4 mt-8">
-            <a 
-              href="#" 
+            <a
+              href="#"
               className="p-2 text-gray-600 hover:text-gray-900 transition-colors"
             >
               <Github size={20} />
             </a>
-            <a 
-              href="#" 
+            <a
+              href="#"
               className="p-2 text-gray-600 hover:text-gray-900 transition-colors"
             >
               <Linkedin size={20} />
             </a>
-            <a 
-              href="#" 
+            <a
+              href="#"
               className="p-2 text-gray-600 hover:text-gray-900 transition-colors"
             >
               <Mail size={20} />
             </a>
           </div>
         </div>
-        
+
         <div className="lg:w-80">
-          <img 
-            src="" 
-            alt="Foto Lucas" 
-            className="w-full rounded-2xl object-cover"
+          <img
+            src="/me.jpg"
+            alt="Foto Lucas"
+            className="w-40 h-40 rounded-full object-cover"
           />
         </div>
       </div>
